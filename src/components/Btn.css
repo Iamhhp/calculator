@@ -1,0 +1,25 @@
+.button {
+  width: 75px;
+  height: 75px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  border: none;
+  border: 1px solid gray;
+
+  background-color: transparent;
+}
+
+.button:active {
+  box-shadow: inset 0px 0px 10px black;
+}
+
+.double-size {
+  width: 150px;
+  flex-shrink: 1;
+}
+
+.aqua-color {
+  background-color: aqua;
+}
